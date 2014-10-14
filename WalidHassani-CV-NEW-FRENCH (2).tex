@@ -1,0 +1,261 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+%\documentclass[11pt, roman]{moderncv}
+\usepackage{mathpazo}
+\usepackage[latin1]{inputenc}
+\usepackage[francais]{babel}
+% ----------------- CV Theme -------------------------------------%
+\moderncvstyle{classic}      
+\moderncvcolor{blue}         
+\renewcommand{\familydefault}{\sfdefault}
+
+% -----------------   CV Geometry -------------------------------------%   
+\usepackage[scale=0.82]{geometry}      
+
+
+% ---------- CV reference entries -------------------------------------%
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem{}{
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+    }
+}
+
+\newcommand{\cvreference}[7]{
+    \textbf{#1}\newline
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+
+% -------------- CV Bibliography  -------------------------------------%
+%\usepackage{multibib}
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%\newcites{journal,conference,invited,workshops,posters,book,misc}{{Journaux},{Confrences},%{Communication},{Workshops},{Posters},{Books},{Others}}
+
+
+% -------------- CV personal data -------------------------------------%
+\address{walid}{hassani}
+\title{Ingnieur R\&D en Contrle-Commande}
+\address{45, rue Moli\`ere}{94200, France}
+                 
+\homepage{www.doyoubuzz.com/walid-hassani}                                            
+\email{hassani.walid@gmail.com}                                            
+%\photo[64pt][0pt]{picture-2}                      
+%\quote{Modeling, Identification \& Control of Human-Exoskeleton Systems 
+%\newline
+%\newline EMG-driven human musculoskeletal modeling} 
+
+\makeatother
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------
+%            Resume
+%----------------------------------------------------------------------------------
+
+\makecvtitle
+\section{\textbf{Formation}}
+\cvitem{2010--2014}{\textbf{Docteur en Robotique, spcialit : Contrle-Commande.} \href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.}{ \footnotesize(Mmoire termin, soutenance prvue en decembere.)}}
+\cvitem{}{Domaines: Robotique, Exosquelette, Modlisation, Optimisation, Contrle, Biomcanique.}
+
+\cvitem{2009--2010}{\textbf{Master 2 dans les Systmes Complexes, les Technologies de l'Information et du Cntrole.} \href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.} {\footnotesize (Major de Promotion, mention Bien.)}}
+\cvitem{}{Cours: Robotique, Intelligence Artificielle, Informatique.}
+
+\cvitem{2002--2007}{\textbf{Ingnieur en \'Electronique, option : Contrle Industriel.} Universit de B\'ejaia, Algrie.}
+\cvitem{{\footnotesize}}{Cours: \'Electronique, Automatique, Contrle Industriel, Traitement de Signal.}
+
+
+\section{\textbf{Experiences}}
+\cvitem{Dec 2009 -- Dec 2014}{{\textbf{Doctorant}}, Lab. Images, Signaux et Systmes Intelligents (LISSI), {\href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.} Directeur de recherche: Prof. Yacine Amirat.}}
+%\cvitem{{ }}{{Lab. Images, Signals et Systmes Intelligents (LISSI), {\href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.}}}}
+\cvitem{}{Projet EICOSI (Exosquelette Intelligent Communicant et Sensible  l'Intention)}
+\vspace{-2mm}
+\cvitem{}{
+\begin{itemize}
+	\item[-] Dveloppement de lois de commandes robustes et d'interfaces Homme/Robot pour un prototype d'exosquelette du membre infrieur.
+	\item[-] Modlisation et identification du prototype. 
+	\item[-] Dimensionnement et conception du systme lectronique de contrle/commande.
+	\item[-] Simulation numrique sous Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$ et validation eprimentale.
+	\item[-] Gestion de projet (cahier des charges, achat et reception du matriels).  
+	\item[-] Travail en groupe et encadrement de stagiaires.
+	\item[-] Prsentation des travaux de recherche dans des congrs nationaux et internationaux.
+\end{itemize}
+}
+\vspace{-3mm}
+\cvitem{Sep. 2011 -- Aout 2012}{{\textbf{Ingnieur R\&D}}, Lab. Images, Signaux et Systmes Intelligents (LISSI), {\href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.}}}
+\cvitem{}{Projet Europen A2net (Automatic Services in Machine-tt-Machine Networks)}
+\vspace{-2mm}
+\cvitem{}{
+\begin{itemize}
+	\item[-] Dveloppement de rseaux de capteurs sans fils pour : (i) la localisation des personnes et des robots mobiles dans un environnement ferm, et, (ii) la collecte des donnes ambiantes (temprature, humidit, luminosit, etc.).
+%	\item[-] Dveloppement de rseaux de capteurs sans fils pour la collecte des donnes ambiantes (temprature, humidit, luminosit, etc.).
+	\item[-] Programmations hardware et software des plateformes exprimentale dveloppes.
+	\item[-] Proposition de choix technologiques et prsentation du travail auprs des partenaires industriels.
+	\item[-] Rdaction des rapports techniques et prsentations de l'avancement auprs des partenaires et des reponsables du laboratoire.
+\end{itemize}
+}
+\vspace{-3mm}
+\cvitem{Dec 2007 -- Aot 2009}{{\textbf{Ingnieur Biomdical}}, Bjaia Equipement Mdical, Algrie}
+\cvitem{}{}
+\vspace{-2mm}
+\cvitem{}{
+\begin{itemize}
+	\item[-] Contrle technique  la rception et avant livraison des quipements (chocardiographes).
+	\item[-] Installation et mise en service chez les clients des quipements.
+	\item[-] Maintenance, mise--jour et suivi des produits.
+	\item[-] Formation des clients sur les quipements.
+	\item[-] Assistant sur quipement durant les ateliers et congrs, assistances tlphoniques.
+\end{itemize}
+}
+\section{\textbf{Stages}}
+%\vspace{-3mm}
+\cvitem{Dec 2009 -- Dec 2014}{{\textbf{Master}}, Lab. Images, Signaux et Systmes Intelligents (LISSI), {\href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.} Matre de stage : Dr. Samer Mohammed.}}
+\vspace{-1mm}
+\cvitem{}{Sujet : Commande robouste d'un exosquelette du genou}
+%\cvitem{{ }}{{ Images, Signals and Intelligent Systems Lab. (LISSI), {\href{http://www.en.u-pec.fr/university-paris-est-creteil-upec--412460.kjsp?RH=WEB-FR}{Universit Paris-Est Cr\'eteil, France.}} }}
+%\cvitem{{ }}{{Encadrant : Dr. Samer Mohammed.}}
+\vspace{-3mm}
+\cvitem{{}}{
+{
+\begin{itemize}
+	\item[-] Dveloppement de commandes robustes par les modes glissants d'ordre deux.
+	\item[-] Modlisation et identification du systme Homme/Exosquelette. 
+	\item[-] Dimensionnement et conception du systme lectronique de contrle/commande.
+	\item[-] Simulation numrique sous Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$ et validation eprimentale.
+\end{itemize}
+}
+\vspace{-3mm}
+}
+\cvitem{Dec 2009 -- Dec 2014}{\textbf{Ingnieur}, Lab.  Technologie Industrielle et de l'Information (LT2I), Universit de Bjaia, Algrie. Matre de stage : Dr. Hocine Lehouche.}
+\vspace{-1mm}
+\cvitem{}{Sujet : Commande adaptative d'un racteur chimique parfaitement agit (CSTR)}
+\vspace{-3mm}
+\cvitem{{}}{
+{
+\begin{itemize}
+	\item[-] Dveloppement de lois de commandes adaptatives auto-ajustables RST et multi-modles.
+	\item[-] Simulation numrique sous Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$.
+\end{itemize}
+}
+\vspace{-3mm}
+}
+
+%\cvitem{Feb 2007 -- Jul 2007}{{{M.Eng Internship -}} \textbf{Adaptive Control Schemes of a Continuous Stirred-Tank Reactor (CSTR).}}
+%\cvitem{{ }}{{ Industrial and Information Technology Lab. (LT2I), University of B\'ejaia, Algeria.}}
+%\cvitem{{ }}{{ Supervisor: Dr. Hocine Lehouche.}}
+%
+%\cvitem{{ }}{
+%\begin{itemize}
+%\item[-] R-S-T digital adaptive controller design.
+%\item[-] Set-Point Supervisory Control Methodology proposition.
+%\item[-] Numerical simulation validation.
+%\end{itemize}
+%}
+\vspace{-3mm}
+%\section{\textbf{Employment}}
+%\cvitem{Sep 2012 -- Aug 2014}{\textbf{Teaching Assistant}, Network and Telecommunications department. IUT Cr\'eteil/Vitry, University of Paris-Est Cr\'eteil, France.}
+%\cvitem{}{
+%Courses \& Tutorials: Analog/Digital Modulation, Signal Transmission, Programming with C/C++.
+%}
+%\cvitem{Nov 2010 -- Mar 2011}{\textbf{Teaching Assistant}, Control and Electronics department. 
+% Engineering School ESME-Sudria, Ivry-sur-Seine, France.}
+%\cvitem{}{
+%Tutorials: Introduction to Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$, Electronics measures, Numerical Analysis using Maple$\tiny{\texttrademark}$.
+%}
+%\cvitem{Mar 2009 -- Aug 2009}{\textbf{Biomedical Engineer Position}, B\'ejaia Medical Equipments, Algeria. Representative from Kontron medical group}
+%\cvitem{}{
+%Diagnosis and repair ultrasound machines problems, Customer training and phone support.
+%}
+%\cvitem{Sep 2008 -- Feb 2009}{\textbf{Teaching Assistant}, Computer Science Department.  
+%Faculty of Science, University of B\'ejaia, Algeria.}
+%\cvitem{}{
+%Tutorials: Electronics and physics measures, Introduction to C programming.
+%}
+%
+%%\section{Employment}
+%
+
+\section{\textbf{Comptences Techniques}}
+\cvitem{}{\textbf{Modlisation, Simulation \& Commande}}
+\cvitem{}{
+%\begin{itemize}
+-- Identification des systmes (conception exprimentale, ajustement du modle, estimateur de Kalman).\newline
+-- Lois de commandes (PID, passivit, borne, force/impdance, sliding modes, commande predictive, adaptative, optimale, ...).\newline
+-- Modlisation des systmes physiques (Systmes multicorps, mcanique, musculosquelettique, humain/exosquelette).\newline
+%\item[-] Motion control (drive tuning, path generation).
+-- Utilisateur expert de Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$ (incl. embedded Matlab, S-functions) + plusieurs toolboxes (e.g. control design, signal processing, optimization, system identification).
+%\end{itemize}
+}
+\vspace{+1mm}
+\cvitem{}{\textbf{Capteurs \& Actionneurs}}
+\cvitem{}{
+%\begin{itemize}
+-- Configuration et rglage des servo-contrleurs (e.g. Maxon EPOS2 70/10).\newline
+-- Commutation lectronique des moteurs Brushless DC (e.g. EC PMAX 300). \newline
+-- Encodeur incrmental, mesure de position (rsistance), capteur de force, acclromtre, gyroscope, goniomtre, capteurs EMG (e.g.,Delsys$^{\tiny{\textregistered}}$ Trigno$\tiny{\texttrademark}$ Wireless). 
+%\end{itemize}
+}
+\vspace{+1mm}
+\cvitem{}{\textbf{Simulations et Essais HIL (Hardware-In-the-Loop)}}
+\cvitem{}{
+-- Gnration de code  partir de Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$ en utilisant Real-time Workshop (RTW).\newline
+-- LabView$\tiny{\texttrademark}$ et CompactRIO/sbRIO et d'autre systmes de la National Instruments. 
+}
+\vspace{+1mm}
+\cvitem{}{\textbf{Prototypage Rapide}}
+\cvitem{}{
+%\begin{itemize}
+-- dSpace hardware (e.g. RTI1103) et le logiciel ControlDesk$^{\tiny{\textregistered}}$ en combinaison avec Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$.
+%\end{itemize}
+}
+\vspace{+1mm}
+
+%\cvitem{$\mu$Processors development}{-- $\mu$Processors development (ATMEL$^{\tiny{\textregistered}}$, ARM$^{\tiny{\textregistered}}$, Microchip$^{\tiny{\textregistered}}$).}
+%\cvitem{rapid prototyping}{dSpace hardware (e.g. RTI1104) and Control Desk software in combination with Matlab/Simulink}
+%\cvitem{}{-- Analog/Digital Electronic prototyping and design.}
+%\cvitem{}{-- Instrumentation, Control and  Data Acquisition (dSPACE (e.g., RTI1103), Delsys Hardware$^{\tiny{\textregistered}}$ (e.g.,Trigno$\tiny{\texttrademark}$ Wireless EMG), Maxon Motor Control (e.g., EPOS2 70/10))}
+
+%\cvitem{}{\textbf{Conception et dveloppement lectronique}}
+%\cvitem{}{
+%%\begin{itemize}
+%-- Systme d'acquisition et d'instrumentation muticanal de signaux EMG, Acclrometrique et gyroscopique.\newline
+%-- Systme de contrle pour un robot. \newline
+%-- Rseau CAN (Controller Area Network).\newline
+%-- ET autres.
+%%\end{itemize}
+%}
+\vspace{+1mm}
+\cvitem{}{\textbf{Programmation informatique}}
+\cvitem{}{Matlab$^{\tiny{\textregistered}}$, C/C++, Python$\tiny{\texttrademark}$, Java$\tiny{\texttrademark}$, Maple$\tiny{\texttrademark}$, LabView$\tiny{\texttrademark}$.}
+%\cvitem{{\footnotesize Simulation}}{Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$,  Maple$\tiny{\texttrademark}$,  LabView$\tiny{\texttrademark}$, ControlDesk$^{\tiny{\textregistered}}$.}
+%\cvitem{OS}{Linux, Mac$\tiny{\texttrademark}$ OS (UNIX), Microsoft$^{\tiny{\textregistered}}$ Windows$^{\tiny{\textregistered}}$.}
+\vspace{-3mm}
+
+%\section{\textbf{Computer Skills}}
+%\cvitem{Programming}{Matlab$^{\tiny{\textregistered}}$, C/C++, Python$\tiny{\texttrademark}$, Java$\tiny{\texttrademark}$.}
+%\cvitem{{\footnotesize Simulation}}{Matlab$^{\tiny{\textregistered}}$/Simulink$^{\tiny{\textregistered}}$,  Maple$\tiny{\texttrademark}$,  LabView$\tiny{\texttrademark}$, ControlDesk$^{\tiny{\textregistered}}$.}
+%\cvitem{OS}{Linux, Mac$\tiny{\texttrademark}$ OS (UNIX), Microsoft$^{\tiny{\textregistered}}$ Windows$^{\tiny{\textregistered}}$.}
+
+\section{\textbf{Langues}}
+\cvitem{}{ \textbf{Anglais}(Avanc), \textbf{Arabe} (courant), \textbf{Kabyle} (natif).}
+
+%\section{Extra}
+%\cvitem{}{\textbf{KoroiBot Summer School}, University of Heidelberg, Germany 22-26 September 2014. (Participant)}
+%\cvitem{}{Topic is improving humanoid walking capabilities by human-inspired mathematical models, optimization and learning.}
+
+%----------------------------------------------------------------------------------
+%            Publications
+%----------------------------------------------------------------------------------
+
+
+\clearpage
+
+\end{document}

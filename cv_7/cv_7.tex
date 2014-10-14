@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Nadia} % Your first name
+\familyname{Barache} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{9ter, du Montparnasse}{Paris, 75006}
+\mobile{06-27-54-11-20}
+\email{barache.nadia@gmail.com}
+\homepage{doyoubuzz.com/nadia-barache}{www.nadiabarache.fr} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\newcommand\Colorhref[3][blue]{\href{#2}{\small\color{#1}#3}}
+
+\photo[70pt][0.0pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{D\'eveloppeuse Ruby On Rails}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%\section{Professional network}
+
+%\cvline{Linkedin.com}{\Colorhref{http://www.linkedin.com/in/adamatan}{Adam Matan}- Professional profile and links.    }
+%\cvline{Stackoverflow.com}{\small\href{http://stackoverflow.com/users/51197/adam-matan} {Adam Matan}   - My software questions and answers. } 
+%\cvline{twitter.com} {\Colorhref[red]{http://twitter.com/justnoticed}{@justnoticed} - My tech tweets.}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Comp\'etences}
+
+\cvitem{Langage}{\textsc{Ruby}, \textsc{Php}, \textsc{Html}, \textsc{Css}, \textsc{Javascript}.}
+\cvitem{Framework}{\textsc{Ruby on Rails}, \textsc{Sinatra}, \textsc{Laravel},\textsc{Foundation, Bootstrap},\textsc{JQuery}.}
+\cvitem{Base de donn\'ees}{\textsc{Mysql},\textsc{PostgreSql}.}
+\cvitem{Versioning}{\textsc{Github},\textsc{Bitbucket}. }
+\cvitem{Gestion de projet}{\textsc{Agile},\textsc{Lean}, \textsc{Scrum}. }
+\cvitem{Autres}{\textsc{Responsive Design},\textsc{Heroku}, \textsc{Spacesquare CMS},\textsc{balsamiq}. }
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Exp\'erience professionnelle}
+
+\subsection{D\'eveloppeuse RoR}
+
+
+
+%------------------------------------------------
+
+\cventry{2013--2014}{Simplon.co}{Montreuil}{France}{}{
+\begin{itemize}
+\item[]- D\'eveloppement d'applications mobiles pour Android et iOS (e.g.Decod'Age).
+\item[]- D\'eveloppement d'applications web responsive (e.g.Reminisi).
+\item[]- D\'eveloppement d'application web(e.g.Chorale choeur de joie \Colorhref{http://choralechoeurdejoie.herokuapp.com/}{choralechoeurdejoie.fr})
+\item[]- Participation au d\'eveloppement front-end de plusieurs projets:
+\begin{itemize}
+\item[]Change ta ville : \Colorhref{http://www.changetaville.fr/}{www.changetaville.fr} 
+\item[]  I wheel share   : \Colorhref{ http://www.iwheelshare.com/}{  www.iwheelshare.com}
+\end{itemize}
+\item[]- Formatrice - \Colorhref{ http://simplon.co/blog/2014/5/12/wifilles-because-girls-can-}{ wifilles}, Fondation Agir Contre l'Exclusion 93.
+\begin{itemize}
+\item[]Initiation \`a la programmation web de coll\'egienne et lyc\'eenne : 
+\end{itemize}
+\item[]- Formatrice - \Colorhref{http://cblog.culture.fr/siliconvalois/actualites/journee-initiation-a-la-magie-numerique-dans-la-silicon-valois/}{Silicon Valois - Minist\`ere de la culture}
+\begin{itemize}
+\item[]Journ\'ee d'initiation \`a la programmation web pour le public jeune \'eloign\'e du num\'erique.
+\end{itemize}
+\item[]- Formatrice - ADIE
+\begin{itemize}
+\item[]Initiation des porteurs de projets au CMS Spacesquare 
+\end{itemize}
+\item[]- \Colorhref{http://chabadabadaweek.tumblr.com/post/79178099684/le-hackathon-chabadabada-des-filles-des-garcons-des}{Hackathon Chabadabadaweek} - WeAreLeka
+\begin{itemize}
+\item[] R\'ealisation d'un Minimum Viable Product 
+\end{itemize}
+\end{itemize}
+}
+
+%------------------------------------------------
+
+
+\cventry{2011--2012}{Stagiaire en master}{Laboratoire Images, Signaux et Syst\'emes Intelligents}{France}{}{
+\begin{itemize}
+\item[]- \'Evaluation des performances d'un syst\'eme P2P-VOD.
+\end{itemize}}
+\cventry{2011--2011}{Stagiaire en ing\'enieur}{Laboratoire Lamos}{Ag\'erie}{}{
+\begin{itemize}
+\item[]-Impl\'ementation d'une m\'eta-heurisque dans les r\'eseaux de capteurs sans fils.
+\end{itemize}
+}
+\vspace{1.5cm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formation}
+
+\cventry{2011--2012}{Master2 S\'ecurit\'e des syst\`emes informatiques}{Paris-Est Cr\'eteil}{}{France}{
+\begin{itemize}
+\item[]- Contenu des cours:
+\begin{itemize}
+\item[]S\'ecurit\'e des syst\'emes d'exploitation, r\'eseaux informatiques.
+\end{itemize}
+\end{itemize}
+}  % Arguments not required can be left empty
+\cventry{2005--2011}{Ing\'enieur en informatique}{Universit\'e de B\'ejaia}{}{Alg\'erie}{
+\begin{itemize}
+\item[] Contenu des cours :
+\begin{itemize}
+\item[] G\'enie logiciel, Base de donn\'ees, Syst\'eme d'information 
+\end{itemize}
+\end{itemize}
+}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2011}{School of Business Postgraduate Scholarship}
+\cvitem{2010}{Top Achiever Award -- Commerce}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2010}{Oral Presentation at the California Business Conference}
+\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Mothertongue}{}
+\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Piano}{Chess}
+\cvlistdoubleitem{Cooking}{Dancing}
+\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\lipsum[1-3] % Dummy text
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
